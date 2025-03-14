@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgb(0,0,0,.5);
+    background: black;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: greenyellow;
+}
+#navbarSupportedContent a{
+    color: #ffff;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid greenyellow;
+}
+
+#navbarSupportedContent button{
+    background-color: greenyellow;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    background: url(/img/spices\ 1.webp ) ; 
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    /* width: 100%; */
+
+}
+#home h1{
+    color: aliceblue;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc, 
+                 0px 4px 0px #ccc,        
+                 0px 5px 0px #ccc,                     
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc;
+}
+#home p{
+    font-size: 18px;
+    color: #ffff;
+}
+#home .input-group {
+    width: 40%;
+    height: 45px;
+
+}
+.Signin{
+    background: rgb(57, 92, 5) !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0,.3);
+
+}
+#about{
+    background: lightgoldenrodyellow;
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#products{
+    background: #e5e5e5;
+}
+#products h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#products img{
+    width: 200px;
+    height: 200px;
+
+}
+.card{
+    width: 250px;
+    height: 250px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgb(0,0,0,.3),
+                 inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 25px;
+}
+.card:hover{
+    box-shadow:  inset 5px 5px 10px rgb(0,0,0,.3),
+                 inset -4px -4px 10px white;
+
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 15px 0px;
+}
+/* footer{
+  width: 100%;
+  height: 30px;
+  background:rgb(0,0,0,.9);
+margin-top: -30px;
+text-align: center;
+color: white;
+padding: 3px;
+} */
