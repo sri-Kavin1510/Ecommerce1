@@ -44,7 +44,7 @@ section{
 }
 
 #home{
-    background: url(/img/spices\ 1.webp ) ; 
+    background: url(./img/spices\ 1.webp ) ; 
     background-size: cover;
     background-position: center;
     flex-direction: column;
